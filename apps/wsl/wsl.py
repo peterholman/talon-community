@@ -11,6 +11,8 @@ mod = Module()
 
 ctx = Context()
 
+mod.tag("wsl", desc="Tag to activate WSL support in Talon")
+
 # note: this context match is intentionally made more complex so that it is more specific
 # than the context defined in apps/win/windows_terminal/windows_terminal.py (and thereby
 # takes precedence).

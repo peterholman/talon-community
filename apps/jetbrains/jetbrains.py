@@ -32,6 +32,7 @@ port_mapping = {
     "idea64.exe": 8653,
     "IntelliJ IDEA": 8653,
     "IntelliJ IDEA Community Edition": 8654,
+    "IntelliJ IDEA Ultimate Edition": 8653,
     "jetbrains-appcode": 8655,
     "jetbrains-clion": 8657,
     "jetbrains-datagrip": 8664,

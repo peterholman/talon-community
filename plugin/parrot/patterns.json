@@ -1,0 +1,9 @@
+{
+	"click": {
+		"sounds": ["click"],
+		"threshold": {
+			">power": 0.1,
+			">probability": 0.8
+		}
+	}
+}

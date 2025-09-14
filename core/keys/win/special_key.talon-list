@@ -10,10 +10,12 @@ enter: enter
 page down: pagedown
 page up: pageup
 escape: escape
+esk: escape
 space: space
 tab: tab
 insert: insert
 wipe: backspace
+del: backspace
 delete: backspace
 forward delete: delete
 menu key: menu

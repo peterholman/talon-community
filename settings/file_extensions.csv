@@ -49,3 +49,6 @@ File extension,Name
 .log,dot log
 .aws,dot aws
 .p12,dot p12
+.yml, dot yml
+.yaml,dot yaml
+.xml,dot xml

@@ -5,6 +5,7 @@ mode: command
     # Do this toggle so we can have focus when saying 'draft show'
     user.draft_hide()
     user.draft_show()
+    user.draft_resize(800, 600)
 
 ^draft show <user.draft_window_position>:
     # Do this toggle so we can have focus when saying 'draft show'

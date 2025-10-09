@@ -13,7 +13,7 @@
             ">probability": 0.99
         },
         "throttle": {
-		"shush": 0.3
+		"shush": 0.2
         }
 	}
 }

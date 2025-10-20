@@ -62,6 +62,12 @@ class Actions:
             app.notify(f"Activating microphone: {microphone_device_list[index - 1]}")
             gui.hide()
 
+    def microphone_toggle():
+        """Toggle default microphone on and off"""
+        if actions.sound.active_microphone() == "None":
+            actions.sound.set_microphone("System Default")
+        else:
+            actions.sound.set_microphone("None")
 
 def on_ready():
     ctx.register("devices_changed", devices_changed)

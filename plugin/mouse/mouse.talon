@@ -1,4 +1,4 @@
-control mouse: tracking.control_toggle()
+toggle: tracking.control_toggle()
 control off: user.mouse_sleep()
 zoom mouse: tracking.control_zoom_toggle()
 camera overlay: tracking.control_debug_toggle()
@@ -94,7 +94,7 @@ wheel tiny up: user.mouse_scroll_up(0.2)
 wheel tiny up here:
     user.mouse_move_center_active_window()
     user.mouse_scroll_up(0.2)
-wheel gaze: user.mouse_gaze_scroll()
+gaze: user.mouse_gaze_scroll_toggle()
 wheel gaze here:
     user.mouse_move_center_active_window()
     user.mouse_gaze_scroll()

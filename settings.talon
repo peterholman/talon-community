@@ -4,7 +4,7 @@ settings():
 
     # Uncomment to set the speech timeout. This is the amount of time after you stop
     # speaking until Talon starts processing the spoken audio. Default is 0.3s.
-     speech.timeout = 0.2
+     speech.timeout = 0.15
 
     # Uncomment to enable dark mode for talon help menus
      imgui.dark_mode = true
@@ -25,7 +25,7 @@ settings():
     user.mouse_continuous_scroll_amount = 8
 
     # Set the scroll multiplier for gaze scroll
-    user.mouse_gaze_scroll_speed_multiplier = 1.0
+   user.mouse_gaze_scroll_speed_multiplier = 0.1
 
     # Set the maximum acceleration factor when scrolling continuously. 1=constant speed/no acceleration.
     user.mouse_continuous_scroll_acceleration = 1.5

@@ -3,14 +3,14 @@
 		"sounds": ["click"],
 		"threshold": {
 			">power": 0.01,
-			">probability": 0.75
+			">probability": 0.80
 		}
     },
 	"shush": {
         "sounds": ["shush"],
         "threshold": {
             ">power": 0.01,
-            ">probability": 0.90
+            ">probability": 0.95
         },
         "throttle": {
 		"shush": 0.2

@@ -9,8 +9,8 @@
 	"shush": {
         "sounds": ["shush"],
         "threshold": {
-            ">power": 0.3,
-            ">probability": 0.99
+            ">power": 0.01,
+            ">probability": 0.90
         },
         "throttle": {
 		"shush": 0.2

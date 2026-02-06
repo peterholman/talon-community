@@ -1,7 +1,7 @@
 from talon import noise, actions
 
 def on_pop(active):
-    actions.key("m")
+   pass
 
 def on_hiss(active):
    pass

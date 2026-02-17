@@ -3,7 +3,7 @@
 		"sounds": ["click"],
 		"threshold": {
 			">power": 0.01,
-			">probability": 0.85
+			">probability": 0.9
 		}
     },
 	"shush": {

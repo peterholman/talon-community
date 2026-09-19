@@ -33,3 +33,4 @@ allow-multiline = false
 
 [tool.pyright]
 reportSelfClsParameterName = false
+extraPaths = ["test/stubs"]

@@ -55,8 +55,10 @@ port_mapping = {
     "RubyMine-EAP": 8661,
     "PyCharm": 8658,
     "pycharm64.exe": 8658,
+    "PyCharm (GUI launcher)": 8658,
     "WebStorm": 8663,
     "webstorm64.exe": 8663,
+    "WebStorm (GUI launcher)": 8663,
     "PhpStorm": 8662,
     # Local plugin development:
     "com.jetbrains.jbr.java": 8666,

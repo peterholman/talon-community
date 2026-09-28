@@ -3,5 +3,5 @@ not mode: user.game
 -
 
 deck(pedal_left:repeat): user.mouse_scroll_down(0.100)
-deck(pedal_middle:down): user.speech_toggle()
+deck(pedal_middle): tracking.control_toggle()
 deck(pedal_right:repeat): user.mouse_scroll_up(0.100)

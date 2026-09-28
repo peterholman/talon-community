@@ -32,8 +32,8 @@ port_mapping = {
     "idea64.exe": 8653,
     "IntelliJ IDEA": 8653,
     "IntelliJ IDEA Ultimate Edition": 8653,
+    "IntelliJ IDEA (GUI launcher)": 8653,
     "IntelliJ IDEA Community Edition": 8654,
-    "IntelliJ IDEA Ultimate Edition": 8653,
     "jetbrains-appcode": 8655,
     "jetbrains-clion": 8657,
     "jetbrains-datagrip": 8664,
@@ -83,7 +83,7 @@ def _get_nonce(port: int, file_prefix: str) -> Optional[str]:
 def send_idea_command(cmd: str) -> str:
     active_app = ui.active_app()
     bundle = active_app.bundle or active_app.name
-    port = port_mapping.get(bundle, None)
+    port = port_mapping.get(bundle)
     if not port:
         raise Exception(f"unknown application {bundle}")
     nonce = _get_nonce(port, ".vcidea_") or _get_nonce(port, "vcidea_")
@@ -159,7 +159,6 @@ and app.bundle: com.jetbrains.jbr.java
 
 @mod.action_class
 class Actions:
-
     def idea(commands: str):
         """Send a command to Jetbrains product"""
         command_list = commands.split(",")
@@ -234,7 +233,7 @@ class EditActions:
     def find_previous():
         actions.user.idea("action FindPrevious")
 
-    def find(text: str = None):
+    def find(text=None):
         actions.user.idea("action Find")
         if text:
             actions.insert(text)
@@ -254,7 +253,7 @@ class EditActions:
     def indent_less():
         actions.user.idea("action EditorUnindentSelection")
 
-    def select_line(n: int = None):
+    def select_line(n=None):
         actions.user.idea("action EditorSelectLine")
 
     def select_word():
@@ -306,7 +305,6 @@ class WinActions:
 
 @ctx.action_class("user")
 class UserActions:
-
     def command_server_directory() -> str:
         return "jetbrains-command-server"
 

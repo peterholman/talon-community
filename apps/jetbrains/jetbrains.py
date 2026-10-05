@@ -37,6 +37,7 @@ port_mapping = {
     "jetbrains-appcode": 8655,
     "jetbrains-clion": 8657,
     "jetbrains-datagrip": 8664,
+    "DataGrip (GUI launcher)": 8664,
     "jetbrains-goland-eap": 8659,
     "jetbrains-goland": 8659,
     "jetbrains-idea-ce": 8654,

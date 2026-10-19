@@ -37,6 +37,7 @@ port_mapping = {
     "jetbrains-appcode": 8655,
     "jetbrains-clion": 8657,
     "jetbrains-datagrip": 8664,
+    "DataGrip (GUI launcher)": 8664,
     "jetbrains-goland-eap": 8659,
     "jetbrains-goland": 8659,
     "jetbrains-idea-ce": 8654,
@@ -55,8 +56,10 @@ port_mapping = {
     "RubyMine-EAP": 8661,
     "PyCharm": 8658,
     "pycharm64.exe": 8658,
+    "PyCharm (GUI launcher)": 8658,
     "WebStorm": 8663,
     "webstorm64.exe": 8663,
+    "WebStorm (GUI launcher)": 8663,
     "PhpStorm": 8662,
     # Local plugin development:
     "com.jetbrains.jbr.java": 8666,
